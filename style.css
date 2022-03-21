@@ -1,0 +1,567 @@
+@media (min-width: 200px) {
+  body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .active-link {
+    border-bottom: 4px solid #288855;
+  }
+
+  .navbar-brand span {
+    display: none;
+  }
+
+  .navbar-logo img {
+    display: none;
+  }
+
+  .login button {
+    color: white;
+    padding: 0 2rem;
+    height: 2rem;
+    font-size: medium;
+  }
+  .carousel-text1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/Photos/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  .carousel-text2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/Photos/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  .carousel-text3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/Photos/hero3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  .carousel-inner {
+    margin-top: 2rem;
+  }
+
+  .carousel-text h1,
+  h5,
+  p {
+    text-align: center;
+  }
+
+  .carousel-item-one {
+    background: #fcf4f2;
+  }
+
+  .carousel-item-two {
+    background: #f2fcf9;
+  }
+  .carousel-image img {
+    display: none;
+  }
+
+  .carousel-text .carol-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .carousel-control-icon {
+    display: none;
+  }
+  .carousel-text {
+    height: 80vh;
+  }
+
+  .about-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* president section */
+  .font-weight-bold {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: 600 !important;
+    margin-top: 3.8rem;
+  }
+
+  .pres-image {
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .pres-info {
+    text-align: center;
+  }
+
+  .lighten {
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .about-head {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #f9ae00;
+  }
+
+  .about-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 0;
+  }
+
+  .questions .container h3 {
+    text-align: center;
+  }
+
+  .questions-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    background: #07321b;
+  }
+
+  /* About Page */
+  .about-nasims {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/Photos/about1ed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 13rem;
+    margin-bottom: 0%;
+  }
+
+  .about-image {
+    position: relative;
+    width: 450px;
+    min-height: 500px;
+    max-width: 100%;
+    background-image: url(/Photos/about.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto !important;
+    margin-top: 2rem;
+  }
+
+  .about-nasims div {
+    padding-top: 6rem;
+  }
+
+  .about-nasims p {
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .section-two {
+    padding: 2rem 1rem;
+  }
+
+  .section-two-img img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .section-three {
+    background: #fffbf6;
+  }
+  .section-three-cover {
+    width: 100%;
+  }
+
+  .section-three-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 1.4rem;
+  }
+
+  .section-three-image img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  /* contact us page */
+
+  .contact-section {
+    background: #f9ecdc;
+    padding-top: 11rem;
+    min-height: 24rem;
+  }
+
+  .contact-section h5 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .contact-section p {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
+  .contact-us {
+    padding: 7rem 2rem;
+  }
+
+  .paragraph {
+    padding: 1.8rem 0;
+    line-height: 2rem;
+  }
+
+  /* .contact-us p {
+    padding: 0 28rem;
+  } */
+  /*
+  .contact-us h6 {
+    padding-bottom: 2rem;
+  } */
+
+  /* News page */
+  .news-page {
+    padding: 3rem 0;
+    width: 80%;
+  }
+
+  .news-section1 {
+    background: #fdfdfd;
+  }
+
+  .news-image2 img {
+    display: none;
+  }
+
+  .news-image1 img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar-brand span {
+    display: block;
+  }
+
+  .navbar-logo img {
+    display: block;
+  }
+
+  .active-link {
+    border-bottom: 4px solid #288855;
+  }
+  .carousel-image img {
+    display: block;
+  }
+  .carousel-text1 {
+    background: #fcf4f2;
+    color: black;
+  }
+  .carousel-text-row {
+    background: #fcf4f2;
+  }
+
+  .carousel-text2 {
+    background: #f2fcf9;
+    color: black;
+  }
+
+  .carousel-text-row2 {
+    background: #f2fcf9;
+  }
+
+  .carousel-text3 {
+    background: #fcf4f2;
+    color: black;
+  }
+
+  .carousel-text1 {
+    padding: 8rem;
+  }
+
+  .carousel-text2 {
+    padding: 8rem;
+  }
+
+  .carousel-text3 {
+    padding: 8rem;
+  }
+
+  .carousel-text h1,
+  h5,
+  p {
+    text-align: left;
+  }
+
+  .carousel-control-icon {
+    display: block;
+  }
+
+  .carousel-text1 img {
+    margin-top: 2.4rem;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+  }
+
+  /* president section */
+
+  .font-weight-bold {
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-weight: 600 !important;
+    margin-top: 3.8rem;
+  }
+
+  .pres-info {
+    text-align: left;
+  }
+
+  .lighten {
+    opacity: 0.9;
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+
+  /* about section */
+
+  .about-head {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #f9ae00;
+  }
+
+  .about-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .logo-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    padding: 0.5rem 0;
+    line-height: 1.4rem;
+  }
+
+  .pres-section {
+    margin-top: 6rem;
+  }
+
+  .president-page {
+    margin-bottom: 15rem;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+
+  .about-body {
+    opacity: 0.7;
+  }
+
+  .about-image {
+    position: relative;
+    width: 450px;
+    min-height: 500px;
+    max-width: 100%;
+    background-image: url(/Photos/about.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto !important;
+  }
+
+  .programmes {
+    background-color: #f2fcf9;
+    padding: 50px 0;
+  }
+
+  .programmes-head {
+    font-size: 1.6rem;
+  }
+
+  .programme-title {
+    opacity: 0.7;
+    text-align: center;
+    margin: auto;
+  }
+
+  .text-yellow {
+    color: #f9ae00;
+  }
+
+  .login button {
+    color: white;
+    padding: 0 3rem;
+    height: 3rem;
+  }
+
+  .login .btn-green {
+    background: #dbf9ea;
+    color: #288855;
+    padding: 0 3rem;
+  }
+
+  .news-body .card {
+    width: 100%;
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+
+  .social .container p {
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  .social .container h3 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    text-align: center;
+    color: white;
+  }
+
+  .questions .container h3 {
+    text-align: center;
+  }
+
+  .questions-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    background: #07321b;
+  }
+
+  /* About Page */
+  .about-nasims {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/Photos/about1ed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 8rem;
+    height: 20rem;
+  }
+
+  .about-nasims div {
+    padding: 2rem 0;
+  }
+
+  .about-nasims p {
+    font-weight: 600;
+  }
+
+  .section-two {
+    padding: 4.5rem 2rem;
+  }
+
+  .section-two-text p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .section-three {
+    background: #fffbf6;
+    padding: 3rem 2rem;
+  }
+  .section-three-cover {
+    width: 80%;
+    padding: 3rem 2rem;
+  }
+
+  .section-three-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .section-three .row {
+    padding: 3rem 1rem 4rem 4rem;
+  }
+
+  /* contact us page */
+
+  .contact-section {
+    background: #f9ecdc;
+    padding: 8rem;
+  }
+
+  .contact-section h5 {
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .contact-section p {
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .contact-us {
+    padding: 7rem 2rem;
+  }
+
+  .contact-us p {
+    padding: 0 28rem;
+  }
+
+  .contact-us h6 {
+    /* padding-bottom: 2rem; */
+  }
+
+  /* News page */
+  .news-page {
+    padding: 3rem 0;
+  }
+
+  .news-section1 {
+    background: #fdfdfd;
+  }
+}
